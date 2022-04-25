@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ------------LOCAL STYLE SHEET-------------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ------------LOCAL STYLE SHEET-------------- -->
+
+    <!-- ------------FONT AWESOME SCRIPT-------------- -->
+    <script src="https://kit.fontawesome.com/484aea53c5.js" crossorigin="anonymous"></script>
+    <!-- ------------FONT AWESOME SCRIPT-------------- -->
+
+    
+    <!-- ------------LOCAL SCRIPT-------------- -->
+    <script src="app.js" defer></script>
+    <!-- ------------LOCAL SCRIPT-------------- -->
+    
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <div class="navbar">
+
+        <!-- Menu tabs container -->
+        <ul class="menu-container">
+            <!-- Menu tabs -->
+            <li data-menu-target="#recovery" class="menu">Recovery</li>
+            <li data-menu-target="#trends" class="menu">Trends</li>
+            <li data-menu-target="#level" class="menu">Level</li>
+            <li data-menu-target="#load" class="menu">Load</li>
+            <!-- Menu tabs -->
+        </ul>
+
+    </div>
+
+    <!-- Content according to the selected tab -->
+    <div class="menu-content">
+
+
+        <div class="active recovery" data-menu-content id="recovery">
+            <h3 class="recovery-date-title">20 April 2022</h3>
+
+            <section class="recovery-section">
+                <div class="recovery-sections-texts">
+                    <h2 class="sections-heading">HR</h2>
+                    <div class="recovery-sections-score-texts">
+                        <h2 class="score">71.6</h2>
+                        <h4 class="score-name">BPM</h4>
+                    </div>
+                </div>
+
+                <div class="recovery-sections-meter-container">
+
+                    <div class="recovery-sections-meter-img-container">
+
+                        <h4>42.5</h4>
+                        <img class="meterImg" src="images/greenMeter.png" alt="">
+                        <h4>2.5</h4>
+
+                        <div class="meter-needle-img-container">
+                            <img class="meter-needle-img"  src="images/greenMeterNeedle.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <hr class="recovery-sections-meter-hr">
+
+                </div>
+            </section>
+
+            <section class="recovery-section">
+                
+                <div class="recovery-sections-texts">
+                    <h2 class="sections-heading">Variability</h2>
+                    <div class="recovery-sections-score-texts">
+                        <h2 class="score var-score">9.4</h2>
+                        <h4 class="score-name">Milliseconds</h4>
+                    </div>
+                </div>
+
+
+                <div class="recovery-sections-meter-container">
+
+                    <div class="recovery-sections-meter-img-container">
+
+                        <h4>42.5</h4>
+                        <img class="meterImg" src="images/blueMeter.png" alt="">
+                        <h4>2.5</h4>
+
+                        <div class="meter-needle-img-container">
+                            <img class="meter-needle-img"  src="images/blueMeterNeedle.png" alt="">
+                        </div>
+
+                    </div>
+
+                    <hr class="recovery-sections-meter-hr">
+
+                </div>
+
+
+            </section>
+
+            <div class="hr-textField-container">
+                <input placeholder="Please Enter HR" class="hr-textField" type="text">
+            </div>
+
+            <section class="recovery-rating-container">
+                <div class="rating-text-container">
+                    <h2>3.8</h2>
+                    <h4>Wellness</h4>
+                </div>
+
+                <div class="rating-icon-container">
+                    
+                    <div class="star-icons">
+                        <i class="fas fa-star filled star-icon"></i>
+                        <i class="fas fa-star filled star-icon"></i>
+                        <i class="fas fa-star filled star-icon"></i>
+                        <i class="fas fa-star filled star-icon"></i>
+                        <i class="fas fa-star-half star-icon"></i>
+                        
+                    </div>
+                        
+                    
+                    <p>18th april 2022</p>
+                </div>
+            </section>
+
+        </div>
+
+
+
+
+
+
+
+        <div data-menu-content id="trends">
+            <h1>Trends</h1>
+        </div>
+        <div data-menu-content id="level">
+            <h1>Level</h1>
+        </div>
+        <div data-menu-content id="load">
+            <h1>Load</h1>
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>
