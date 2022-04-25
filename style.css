@@ -4,6 +4,10 @@
 body{
     margin: 0;
 }
+.app{
+    width: 360px;
+    margin: 0 auto;
+}
 .navbar{
     position: relative;
     top: 30px;
@@ -123,7 +127,7 @@ body{
     width: 100%;
 }
 
-/* .meter-needle-img{
+/* .hr-meter-needle-img{
     transform: rotate(-50deg);
 } */
 .recovery-sections-meter-hr{
