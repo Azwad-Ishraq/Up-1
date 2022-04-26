@@ -81,15 +81,17 @@ body{
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 3vh;
+    /* padding-top: 10px; */
 }
 
 .recovery-sections-texts{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
-/* .sections-heading{
-
-} */
+.sections-heading{
+    margin: 0;
+}
 .recovery-sections-score-texts{
     display: flex;
     justify-content: flex-end;
@@ -127,11 +129,11 @@ body{
     width: 100%;
 }
 
-/* .hr-meter-needle-img{
-    transform: rotate(-50deg);
-} */
+.hr-meter-needle-img{
+    transition: 3s;
+}
 .recovery-sections-meter-hr{
-    width: 100%;
+    width: 95%;
     border: 5px solid black;
 }
 
