@@ -41,8 +41,8 @@ const increment_value = (element,value) => {
 }
 
 
-// 
-const hr_test_value = 80;
+// hr animation
+const hr_test_value = 55;
 const hr_lowest_value_element = document.getElementById('hr-lowest-value');
 
 const hr_highest_value_element = document.getElementById('hr-highest-value')
@@ -58,8 +58,30 @@ const total_rotation_value = rotation_animation_func(hr_lowest_value_element.tex
 
 const rotation_timeout = setTimeout(()=>{
     hr_meter_needle.style.transform = `rotate(${total_rotation_value}deg)`
+    increment_value(hr_bpm_score_element,hr_test_value)
 },500)
-increment_value(hr_bpm_score_element,hr_test_value)
+
+
+// Variability animation
+const var_test_value = 80;
+
+const var_highest_value_element = document.getElementById('var-highest-value')
+const var_lowest_value_element = document.getElementById('var-lowest-value')
+
+const var_meter_needle = document.getElementById('var-meter-needle');
+
+const var_score_element = document.getElementById('var-score');
+
+var_highest_value_element.textContent = '90';
+var_lowest_value_element.textContent = '5';
+
+const var_total_rotation_value = rotation_animation_func(var_lowest_value_element.textContent, var_highest_value_element.textContent, var_test_value);
+
+const var_rotation_timeout = setTimeout(()=>{
+    var_meter_needle.style.transform = `rotate(-${var_total_rotation_value}deg)`
+    increment_value(var_score_element,var_test_value)
+},500)
+
 
 
 
