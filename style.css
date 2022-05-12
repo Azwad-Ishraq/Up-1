@@ -213,6 +213,10 @@ body{
     color: #ffbe3c;
 }
 /* -------------------recovery--------------- */
+
+
+
+/* --------------trends----------------- */
 .trends{
     margin-top: 5vh;
 }
@@ -335,4 +339,91 @@ body{
     color: #BE1C1C;
     margin-top: 10px;
 }
+
+/* --------------trends----------------- */
+
+
+/* ----------------load------------------ */
+
+.load{
+    margin-top: 5vh;
+}
+.load-heading-date{
+    text-align: center;
+    
+}
+.load-image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.load-image-title{
+    position: absolute;
+}
+.cardio-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgb(128 128 128 / 33%);
+    border-radius: 20px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin-top: 20px;
+}
+.cardio-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(128 128 128 / 17%);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.cardio-item-heading{
+    margin: 0;
+    margin-bottom: 10px;
+    color: #006CB8;
+}
+.cardio-item-heading2{
+    margin: 0;
+    color:  #777777;
+}
+.open-session-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgb(128 128 128 / 33%);
+    border-radius: 20px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin-top: 20px;
+}
+.open-session-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(128 128 128 / 17%);
+    border-radius: 10px;
+    padding: 20px;
+}
+.open-session-heading{
+    margin: 0;
+    margin-bottom: 10px;
+    color: #006CB8;
+}
+.open-session-heading2{
+    margin: 0;
+    color:  #777777;
+    
+}
+
+/* ----------------load------------------ */
 
