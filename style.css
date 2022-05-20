@@ -15,7 +15,7 @@ body{
 .navbar{
     position: relative;
     top: 15px;
-    width: 95%;
+    width: 100%;
     height: 55px;
     background-color: #006db8;
     border-radius: 30px;
@@ -223,121 +223,86 @@ body{
 .trends-section{
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.329);
     border-radius: 20px;
+    margin-bottom: 20px;
     margin-bottom: 20px;
     
 
 }
-.trends-section-hr-container{
+.trends-section-heading-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-.trends-section-hr{
-    width: 180px;
-    padding: 10px;
-    /* height: 140px; */
-    background-color: rgba(244, 244, 244, 0.9);
-    margin: 5px;
-    border-radius: 15px;
+.trends-section-heading-container h4,h1{
+    margin: 0;
+}
+.trends-section-heading-container h4{
+    color: gray;
+}
+.trends-section-mid-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    margin-top: 3vh;
 }
-.trends-section-hr-heading-texts{
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-start;
-    width: 100%;
+.trends-section-mid-container img{
+    width: 150px;
 }
-.trends-section-hr-heading-texts h2,p{
-    margin: 5px;
-}
-.trends-section-hr-heading-texts h2{
-    font-size: 18px;
-}
-.trends-section-hr-heading-texts p{
-    font-size: 13px;
-}
-.trends-section-hr-graph-img{
-    width: 100px;
-    margin-top: 10px;
-}
-.trends-section-hr-score-info-container{
-    display: flex;
-    margin-top: 10px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: baseline;
-}
-.trends-section-hr-score-info-container h1,p{
+.trends-section-mid-score-container h1,h3{
     margin: 3px;
 }
-.trends-section-hr-score-texts{
+.trends-section-mid-score-container h1{
+    color: #DA6E0A;
+    font-weight: bolder;
+}
+.trends-section-mid-score-container{
     display: flex;
     align-items: baseline;
+    margin-top: 20px;
 }
-.trends-section-hr-score-texts h1{
-    color: #DA6E0A;
+.trends-section-bottom-container{
+    margin-top: 20px;
+    display: flex;
 }
-.trends-section-hr-score-texts p{
-    font-weight: bold;
-}
-.up-arrow-img{
-    width: auto;
-    height: 25px;
-}
-.trends-section-var-container{
+.trends-section-bottom-item{
+    background-color: #898a8e21;
     display: flex;
     flex-direction: column;
-}
-.trends-section-var-container h2{
-    padding: 0px 10px;
-    margin-bottom: 10px;
-}
-.trends-section-var-sections-container{
-    display: flex;
-}
-.trends-section-var{
-    width: 180px;
-    padding: 10px;
-    /* height: 70px; */
-    background-color: rgba(244, 244, 244, 0.9);
-    margin: 5px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-}
-.trends-section-var-upper-container{
-    display: flex;
+    padding: 5px;
+    border-radius: 20px;
     justify-content: space-between;
-    height: 20px;
-}
-.trends-section-var-down-container{
-    display: flex;
-    align-items: baseline;
-}
-.trends-section-var-down-container h1,h5{
-    margin: 3px;
-}
-.trends-section-var-down-container h1{
-    color: #DA6E0A;
+    width: 50%;
+    margin: 5px;
 }
 
-.trends-section-var-upper-container p{
-    font-size: 12px;
-    font-weight: bold;
+.trends-section-bottom-item-top{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
 }
-.down-arrow-img{
-    width: auto;
-    height: 25px;
+.trends-section-bottom-item-top p{
+    font-size: 13px;
+    margin: 0px;
 }
-.trends-section-var-percent-text{
-    color: #BE1C1C;
-    margin-top: 10px;
+.trends-section-bottom-item-bottom{
+    display: flex;
+    margin: 5px!important;
+    align-items: baseline;
+}
+.minus-score{
+    color: rgb(255, 51, 51);
+}
+.plus-score{
+    color: rgb(0, 199, 0);
+}
+.trends-section-bottom-item-bottom h2,h6{
+    margin: 0;
+}
+.trends-section-bottom-item-bottom h2{
+    color: #DA6E0A;
 }
 
 /* --------------trends----------------- */

@@ -1,0 +1,296 @@
+<div class="trends-section-hr-container">
+
+                     <div class="trends-section-hr">
+
+                        <span class="trends-section-hr-heading-texts">
+                            <h2>HR</h2>
+                            <p>Last 7 Days</p>
+                        </span>
+
+                        <img class="trends-section-hr-graph-img" src="graph.svg" alt="">
+
+                        <span class="trends-section-hr-score-info-container">
+                            <span class="trends-section-hr-score-texts">
+                            <h1>74.5</h1>
+                            <p>BPM</p>
+                            </span>
+                            <img class="up-arrow-img" src="up_arrow.png" alt="">
+                        </span>
+
+                     </div>
+
+
+                     <div class="trends-section-hr">
+
+                        <span class="trends-section-hr-heading-texts">
+                            <h2>HR</h2>
+                            <p>Last 7 Days</p>
+                        </span>
+
+                        <img class="trends-section-hr-graph-img" src="graph.svg" alt="">
+
+                        <span class="trends-section-hr-score-info-container">
+                            <span class="trends-section-hr-score-texts">
+                            <h1>74.5</h1>
+                            <p>BPM</p>
+                            </span>
+                            <img src="" alt="">
+                        </span>
+                        
+                     </div>
+
+
+                </div>
+
+                <div class="trends-section-var-container">
+                    <h2>Variability</h2>
+
+                    <div class="trends-section-var-sections-container">
+
+
+                       
+
+
+                        <div class="trends-section-var">
+                            <span class="trends-section-var-upper-container">
+                                <p>Last 7 days</p>
+                                
+                            </span>
+                            
+    
+                            <span class="trends-section-var-down-container">
+                                <h1>7.5</h1>
+                                <h5>(Milliseconds)</h5>
+                            </span>
+                        </div>
+
+
+                        <div class="trends-section-var">
+                            <span class="trends-section-var-upper-container">
+                                <p>Last 7 days</p>
+                                <p class="trends-section-var-percent-text">-20.66%</p>
+                                <img class="down-arrow-img" src="Down_arrow.png" alt="">
+                            </span>
+                            
+    
+                            <span class="trends-section-var-down-container">
+                                <h1>7.5</h1>
+                                <h5>(Milliseconds)</h5>
+                            </span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="trends-section">
+                <div class="trends-section-hr-container">
+
+                     <div class="trends-section-hr">
+
+                        <span class="trends-section-hr-heading-texts">
+                            <h2>HR</h2>
+                            <p>Last 7 Days</p>
+                        </span>
+
+                        <img class="trends-section-hr-graph-img" src="graph.svg" alt="">
+
+                        <span class="trends-section-hr-score-info-container">
+                            <span class="trends-section-hr-score-texts">
+                            <h1>74.5</h1>
+                            <p>BPM</p>
+                            </span>
+                            <img class="up-arrow-img" src="up_arrow.png" alt="">
+                        </span>
+
+                     </div>
+
+
+                     <div class="trends-section-hr">
+
+                        <span class="trends-section-hr-heading-texts">
+                            <h2>HR</h2>
+                            <p>Last 7 Days</p>
+                        </span>
+
+                        <img class="trends-section-hr-graph-img" src="graph.svg" alt="">
+
+                        <span class="trends-section-hr-score-info-container">
+                            <span class="trends-section-hr-score-texts">
+                            <h1>74.5</h1>
+                            <p>BPM</p>
+                            </span>
+                            <img src="" alt="">
+                        </span>
+                        
+                     </div>
+
+
+                </div>
+
+                <div class="trends-section-var-container">
+                    <h2>Variability</h2>
+
+                    <div class="trends-section-var-sections-container">
+
+
+                       
+
+
+                        <div class="trends-section-var">
+                            <span class="trends-section-var-upper-container">
+                                <p>Last 7 days</p>
+                                
+                            </span>
+                            
+    
+                            <span class="trends-section-var-down-container">
+                                <h1>7.5</h1>
+                                <h5>(Milliseconds)</h5>
+                            </span>
+                        </div>
+
+
+                        <div class="trends-section-var">
+                            <span class="trends-section-var-upper-container">
+                                <p>Last 7 days</p>
+                                <p class="trends-section-var-percent-text">-20.66%</p>
+                                <img class="down-arrow-img" src="Down_arrow.png" alt="">
+                            </span>
+                            
+    
+                            <span class="trends-section-var-down-container">
+                                <h1>7.5</h1>
+                                <h5>(Milliseconds)</h5>
+                            </span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            .trends-section-hr-container{
+    display: flex;
+    justify-content: center;
+}
+.trends-section-hr{
+    width: 180px;
+    padding: 10px;
+    /* height: 140px; */
+    background-color: rgba(244, 244, 244, 0.9);
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.trends-section-hr-heading-texts{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    width: 100%;
+}
+.trends-section-hr-heading-texts h2,p{
+    margin: 5px;
+}
+.trends-section-hr-heading-texts h2{
+    font-size: 18px;
+}
+.trends-section-hr-heading-texts p{
+    font-size: 13px;
+}
+.trends-section-hr-graph-img{
+    width: 100px;
+    margin-top: 10px;
+}
+.trends-section-hr-score-info-container{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.trends-section-hr-score-info-container h1,p{
+    margin: 3px;
+}
+.trends-section-hr-score-texts{
+    display: flex;
+    align-items: baseline;
+}
+.trends-section-hr-score-texts h1{
+    color: #DA6E0A;
+}
+.trends-section-hr-score-texts p{
+    font-weight: bold;
+}
+.up-arrow-img{
+    width: auto;
+    height: 25px;
+}
+.trends-section-var-container{
+    display: flex;
+    flex-direction: column;
+}
+.trends-section-var-container h2{
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+.trends-section-var-sections-container{
+    display: flex;
+}
+.trends-section-var{
+    width: 180px;
+    padding: 10px;
+    /* height: 70px; */
+    background-color: rgba(244, 244, 244, 0.9);
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.trends-section-var-upper-container{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+}
+.trends-section-var-down-container{
+    display: flex;
+    align-items: baseline;
+}
+.trends-section-var-down-container h1,h5{
+    margin: 3px;
+}
+.trends-section-var-down-container h1{
+    color: #DA6E0A;
+}
+
+.trends-section-var-upper-container p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.down-arrow-img{
+    width: auto;
+    height: 25px;
+}
+.trends-section-var-percent-text{
+    color: #BE1C1C;
+    margin-top: 10px;
+}
