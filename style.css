@@ -444,7 +444,7 @@ body{
 .level-image-number{
     position: absolute;
     font-size: 50px;
-    top: 30px;
+    top: 60px;
     
 }
 .level-middle-text-container{
@@ -455,6 +455,7 @@ body{
     justify-content: center;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 .level-middle-text-container h3{
     margin-bottom: 10px;
