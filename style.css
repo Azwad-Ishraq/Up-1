@@ -238,6 +238,7 @@ body{
 }
 .trends-section-heading-container h4,h1{
     margin: 0;
+    flex: 1;
 }
 .trends-section-heading-container h4{
     color: gray;
