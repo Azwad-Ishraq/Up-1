@@ -240,6 +240,16 @@ body{
     margin: 0;
     flex: 1;
 }
+.trends-section-heading-container h1
+{
+    flex: 2;
+    text-align: center;
+}
+.trends-section-heading-img-container{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
 .trends-section-heading-container h4{
     color: gray;
 }
